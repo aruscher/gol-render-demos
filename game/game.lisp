@@ -1,4 +1,4 @@
-(in-package #:gol-render-demos)
+(in-package #:game)
 
 (defclass game-of-life ()
   ((cols :initform 100 :initarg :cols :reader cols)
