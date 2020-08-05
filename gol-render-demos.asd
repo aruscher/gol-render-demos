@@ -1,23 +1,22 @@
 ;;;; gol-render-demos.asd
 
 (asdf:defsystem #:gol-render-demos
-  :description "Describe gol-render-demos here"
-  :author "Your Name <your.name@example.com>"
-  :license  "Specify license here"
+  :description "A collection of different approaches to render Conways Game-of-Life in Common Lisp. "
+  :author "Andreas Ruscheinski <andreas.ruscheinski@googlemail.com>"
+  :license  "MIT"
   :version "0.0.1"
   :serial t
   :pathname ""
-  :depends-on (
-               "gol-render-demos/game"
+  :depends-on ("gol-render-demos/game"
                "gol-render-demos/oldschool-opengl"
                "gol-render-demos/sdl2kit"
                "gol-render-demos/sketch")
-  :components ((:file "package")))
+  :components ())
 
 (asdf:defsystem #:gol-render-demos/game
-  :description "Describe gol-render-demos here"
-  :author "Your Name <your.name@example.com>"
-  :license  "Specify license here"
+  :description "A basic implementation of Conways Game-of-Life."
+  :author "Andreas Ruscheinski <andreas.ruscheinski@googlemail.com>"
+  :license  "MIT"
   :version "0.0.1"
   :serial t
   :pathname "game/"
@@ -25,9 +24,9 @@
                (:file "game")))
 
 (asdf:defsystem #:gol-render-demos/oldschool-opengl
-  :description "Describe gol-render-demos here"
-  :author "Your Name <your.name@example.com>"
-  :license  "Specify license here"
+  :description "An implementation to render Conways Game-of-Life using oldschool cl-opengl."
+  :author "Andreas Ruscheinski <andreas.ruscheinski@googlemail.com>"
+  :license  "MIT"
   :version "0.0.1"
   :serial t
   :pathname "oldschool-opengl/"
@@ -36,9 +35,9 @@
                (:file "oldschool-opengl")))
 
 (asdf:defsystem #:gol-render-demos/sdl2kit
-  :description "Describe gol-render-demos here"
-  :author "Your Name <your.name@example.com>"
-  :license  "Specify license here"
+  :description "An implementation to render Conways Game-of-Life using SDL2."
+  :author "Andreas Ruscheinski <andreas.ruscheinski@googlemail.com>"
+  :license  "MIT"
   :version "0.0.1"
   :serial t
   :pathname "sdl2kit/"
@@ -48,9 +47,9 @@
                (:file "sdl2kit")))
 
 (asdf:defsystem #:gol-render-demos/sketch
-  :description "Describe gol-render-demos here"
-  :author "Your Name <your.name@example.com>"
-  :license  "Specify license here"
+  :description "An implementation to render Conways Game-of-Life using sketch."
+  :author "Andreas Ruscheinski <andreas.ruscheinski@googlemail.com>"
+  :license  "MIT"
   :version "0.0.1"
   :serial t
   :pathname "sketch/"
