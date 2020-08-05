@@ -1,9 +1,10 @@
 # gol-render-demos
-### _Your Name <your.name@example.com>_
+The aim of this project is to provide examples to apply different libraries to render Conway's Game of Life.
 
-This is a project to do ... something.
+
+## Contributing
+Pull requests covering addtional libraries are welcome. 
 
 ## License
-
-Specify license here
+[MIT](https://choosealicense.com/licenses/mit/)
 

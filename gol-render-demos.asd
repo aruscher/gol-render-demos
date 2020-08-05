@@ -1,7 +1,7 @@
 ;;;; gol-render-demos.asd
 
 (asdf:defsystem #:gol-render-demos
-  :description "A collection of different approaches to render Conways Game-of-Life in Common Lisp. "
+  :description "A collection of different approaches to render Conway's Game of Life in Common Lisp. "
   :author "Andreas Ruscheinski <andreas.ruscheinski@googlemail.com>"
   :license  "MIT"
   :version "0.0.1"
@@ -14,7 +14,7 @@
   :components ())
 
 (asdf:defsystem #:gol-render-demos/game
-  :description "A basic implementation of Conways Game-of-Life."
+  :description "A basic implementation of Conway's Game of Life."
   :author "Andreas Ruscheinski <andreas.ruscheinski@googlemail.com>"
   :license  "MIT"
   :version "0.0.1"
@@ -24,7 +24,7 @@
                (:file "game")))
 
 (asdf:defsystem #:gol-render-demos/oldschool-opengl
-  :description "An implementation to render Conways Game-of-Life using oldschool cl-opengl."
+  :description "An implementation to render Conway's Game of Life using oldschool opengl."
   :author "Andreas Ruscheinski <andreas.ruscheinski@googlemail.com>"
   :license  "MIT"
   :version "0.0.1"
@@ -35,7 +35,7 @@
                (:file "oldschool-opengl")))
 
 (asdf:defsystem #:gol-render-demos/sdl2kit
-  :description "An implementation to render Conways Game-of-Life using SDL2."
+  :description "An implementation to render Conway's Game of Life using SDL2."
   :author "Andreas Ruscheinski <andreas.ruscheinski@googlemail.com>"
   :license  "MIT"
   :version "0.0.1"
@@ -47,7 +47,7 @@
                (:file "sdl2kit")))
 
 (asdf:defsystem #:gol-render-demos/sketch
-  :description "An implementation to render Conways Game-of-Life using sketch."
+  :description "An implementation to render Conway's Game of Life using sketch."
   :author "Andreas Ruscheinski <andreas.ruscheinski@googlemail.com>"
   :license  "MIT"
   :version "0.0.1"
